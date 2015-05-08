@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2F9F2C5F-527B-4CA9-9254-AE202C398024</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Secure Personal File Manager</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D35300F20BCA245B3F61310170263BB247EED64E</key>
+		<string>http://github.com/ronaldloh/SecurePersonalFileManagerv2.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Secure Personal File Manager.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D35300F20BCA245B3F61310170263BB247EED64E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://github.com/ronaldloh/SecurePersonalFileManagerv2.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D35300F20BCA245B3F61310170263BB247EED64E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D35300F20BCA245B3F61310170263BB247EED64E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SecurePersonalFileManagerv2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
