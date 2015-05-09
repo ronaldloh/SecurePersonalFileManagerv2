@@ -7,11 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		72560C0A1AFA65070067BCE4 /* CommonCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 72560C091AFA65070067BCE4 /* CommonCryptor.m */; };
-		725838D11AF888CA00024563 /* ImageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 725838D01AF888CA00024563 /* ImageTableViewController.m */; };
-		725838D41AF88D0800024563 /* ImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 725838D31AF88D0800024563 /* ImageTableViewCell.m */; };
 		725838D61AF8917F00024563 /* Tortoise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 725838D51AF8917F00024563 /* Tortoise.jpg */; };
-		725838D91AF8949D00024563 /* ImageDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 725838D81AF8949D00024563 /* ImageDetailViewController.m */; };
 		725838E31AF8AEF400024563 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725838E21AF8AEF400024563 /* Main.storyboard */; };
 		725F7D781AF3926B00198BCB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725F7D761AF3926B00198BCB /* Bolts.framework */; };
 		725F7D791AF3926B00198BCB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725F7D771AF3926B00198BCB /* Parse.framework */; };
@@ -28,10 +24,6 @@
 		725F7D8F1AF3933D00198BCB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 725F7D8E1AF3933D00198BCB /* libsqlite3.dylib */; };
 		725F7D931AF393A300198BCB /* MyConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 725F7D921AF393A300198BCB /* MyConnector.m */; };
 		725F7D951AF3C99F00198BCB /* PasswordRecoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725F7D941AF3C99F00198BCB /* PasswordRecoverViewController.swift */; };
-		7293AD621AF61BA300E046A4 /* pdf_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7293AD5E1AF61BA300E046A4 /* pdf_icon.png */; };
-		7293AD631AF61BA300E046A4 /* DCCS-Assignment v5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7293AD5F1AF61BA300E046A4 /* DCCS-Assignment v5.pdf */; };
-		7293AD641AF61BA300E046A4 /* DCCS_3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7293AD601AF61BA300E046A4 /* DCCS_3.pdf */; };
-		7293AD651AF61BA300E046A4 /* DCCS_2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7293AD611AF61BA300E046A4 /* DCCS_2.pdf */; };
 		729D9B671AE38CDD00E4C6A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D9B661AE38CDD00E4C6A6 /* AppDelegate.swift */; };
 		729D9B691AE38CDD00E4C6A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D9B681AE38CDD00E4C6A6 /* ViewController.swift */; };
 		729D9B6E1AE38CDD00E4C6A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729D9B6D1AE38CDD00E4C6A6 /* Images.xcassets */; };
@@ -39,7 +31,17 @@
 		729D9B7D1AE38CDD00E4C6A6 /* Secure_Personal_File_ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D9B7C1AE38CDD00E4C6A6 /* Secure_Personal_File_ManagerTests.swift */; };
 		729D9B871AE3914E00E4C6A6 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D9B861AE3914E00E4C6A6 /* RegisterPageViewController.swift */; };
 		729D9B891AE396C600E4C6A6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D9B881AE396C600E4C6A6 /* LoginViewController.swift */; };
-		72C581D41AFD2E1F0067AF63 /* EncryptDecryptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C581D31AFD2E1F0067AF63 /* EncryptDecryptViewController.swift */; };
+		72A250D91AFE726200A7D9AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A250D81AFE726200A7D9AD /* UIKit.framework */; };
+		72A250DB1AFE726900A7D9AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A250DA1AFE726900A7D9AD /* Foundation.framework */; };
+		72A250DE1AFE72CA00A7D9AD /* RNCryptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A250DD1AFE72CA00A7D9AD /* RNCryptManager.m */; };
+		72A250E11AFE72DD00A7D9AD /* CPPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A250E01AFE72DD00A7D9AD /* CPPasswordViewController.m */; };
+		72A250E41AFE72EF00A7D9AD /* CPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A250E31AFE72EF00A7D9AD /* CPAppDelegate.m */; };
+		72A250E71AFE730900A7D9AD /* CPEncyptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A250E61AFE730900A7D9AD /* CPEncyptViewController.m */; };
+		72A250EA1AFE731700A7D9AD /* CPDecryptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A250E91AFE731700A7D9AD /* CPDecryptViewController.m */; };
+		72A250EF1AFE736600A7D9AD /* CryptPic-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72A250EB1AFE736600A7D9AD /* CryptPic-Info.plist */; };
+		72A250F01AFE736600A7D9AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72A250ED1AFE736600A7D9AD /* InfoPlist.strings */; };
+		72A250F11AFE736600A7D9AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A250EE1AFE736600A7D9AD /* main.m */; };
+		72A250F41AFE739200A7D9AD /* CPCryptController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A250F31AFE739200A7D9AD /* CPCryptController.m */; };
 		72EBDCD41AF65FB700AD4D54 /* Island.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72EBDCD01AF65FB700AD4D54 /* Island.jpg */; };
 		72EBDCD51AF65FB700AD4D54 /* London.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72EBDCD11AF65FB700AD4D54 /* London.jpg */; };
 		72EBDCD61AF65FB700AD4D54 /* Perth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 72EBDCD21AF65FB700AD4D54 /* Perth.jpg */; };
@@ -62,15 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		72560C081AFA65070067BCE4 /* CommonCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCryptor.h; sourceTree = "<group>"; };
-		72560C091AFA65070067BCE4 /* CommonCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonCryptor.m; sourceTree = "<group>"; };
-		725838CF1AF888CA00024563 /* ImageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTableViewController.h; sourceTree = "<group>"; };
-		725838D01AF888CA00024563 /* ImageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTableViewController.m; sourceTree = "<group>"; };
-		725838D21AF88D0800024563 /* ImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTableViewCell.h; sourceTree = "<group>"; };
-		725838D31AF88D0800024563 /* ImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTableViewCell.m; sourceTree = "<group>"; };
 		725838D51AF8917F00024563 /* Tortoise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tortoise.jpg; sourceTree = "<group>"; };
-		725838D71AF8949D00024563 /* ImageDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDetailViewController.h; sourceTree = "<group>"; };
-		725838D81AF8949D00024563 /* ImageDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDetailViewController.m; sourceTree = "<group>"; };
 		725838E21AF8AEF400024563 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		725F7D761AF3926B00198BCB /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		725F7D771AF3926B00198BCB /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
@@ -89,10 +83,6 @@
 		725F7D911AF393A300198BCB /* MyConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyConnector.h; sourceTree = "<group>"; };
 		725F7D921AF393A300198BCB /* MyConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyConnector.m; sourceTree = "<group>"; };
 		725F7D941AF3C99F00198BCB /* PasswordRecoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordRecoverViewController.swift; sourceTree = "<group>"; };
-		7293AD5E1AF61BA300E046A4 /* pdf_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pdf_icon.png; sourceTree = "<group>"; };
-		7293AD5F1AF61BA300E046A4 /* DCCS-Assignment v5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "DCCS-Assignment v5.pdf"; sourceTree = "<group>"; };
-		7293AD601AF61BA300E046A4 /* DCCS_3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DCCS_3.pdf; sourceTree = "<group>"; };
-		7293AD611AF61BA300E046A4 /* DCCS_2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = DCCS_2.pdf; sourceTree = "<group>"; };
 		729D9B611AE38CDD00E4C6A6 /* Secure Personal File Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Secure Personal File Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		729D9B651AE38CDD00E4C6A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		729D9B661AE38CDD00E4C6A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,7 +94,24 @@
 		729D9B7C1AE38CDD00E4C6A6 /* Secure_Personal_File_ManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secure_Personal_File_ManagerTests.swift; sourceTree = "<group>"; };
 		729D9B861AE3914E00E4C6A6 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 		729D9B881AE396C600E4C6A6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		72C581D31AFD2E1F0067AF63 /* EncryptDecryptViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncryptDecryptViewController.swift; sourceTree = "<group>"; };
+		72A250D81AFE726200A7D9AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		72A250DA1AFE726900A7D9AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		72A250DC1AFE72CA00A7D9AD /* RNCryptManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptManager.h; sourceTree = "<group>"; };
+		72A250DD1AFE72CA00A7D9AD /* RNCryptManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptManager.m; sourceTree = "<group>"; };
+		72A250DF1AFE72DD00A7D9AD /* CPPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPPasswordViewController.h; sourceTree = "<group>"; };
+		72A250E01AFE72DD00A7D9AD /* CPPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPPasswordViewController.m; sourceTree = "<group>"; };
+		72A250E21AFE72EF00A7D9AD /* CPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPAppDelegate.h; sourceTree = "<group>"; };
+		72A250E31AFE72EF00A7D9AD /* CPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPAppDelegate.m; sourceTree = "<group>"; };
+		72A250E51AFE730900A7D9AD /* CPEncyptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPEncyptViewController.h; sourceTree = "<group>"; };
+		72A250E61AFE730900A7D9AD /* CPEncyptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPEncyptViewController.m; sourceTree = "<group>"; };
+		72A250E81AFE731700A7D9AD /* CPDecryptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPDecryptViewController.h; sourceTree = "<group>"; };
+		72A250E91AFE731700A7D9AD /* CPDecryptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPDecryptViewController.m; sourceTree = "<group>"; };
+		72A250EB1AFE736600A7D9AD /* CryptPic-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CryptPic-Info.plist"; path = "Images SPFM/CryptPic-Info.plist"; sourceTree = "<group>"; };
+		72A250EC1AFE736600A7D9AD /* CryptPic-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CryptPic-Prefix.pch"; path = "Images SPFM/CryptPic-Prefix.pch"; sourceTree = "<group>"; };
+		72A250ED1AFE736600A7D9AD /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = "Images SPFM/InfoPlist.strings"; sourceTree = "<group>"; };
+		72A250EE1AFE736600A7D9AD /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Images SPFM/main.m"; sourceTree = "<group>"; };
+		72A250F21AFE739200A7D9AD /* CPCryptController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPCryptController.h; sourceTree = "<group>"; };
+		72A250F31AFE739200A7D9AD /* CPCryptController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPCryptController.m; sourceTree = "<group>"; };
 		72EBDCD01AF65FB700AD4D54 /* Island.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Island.jpg; sourceTree = "<group>"; };
 		72EBDCD11AF65FB700AD4D54 /* London.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = London.jpg; sourceTree = "<group>"; };
 		72EBDCD21AF65FB700AD4D54 /* Perth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Perth.jpg; sourceTree = "<group>"; };
@@ -121,6 +128,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72A250DB1AFE726900A7D9AD /* Foundation.framework in Frameworks */,
+				72A250D91AFE726200A7D9AD /* UIKit.framework in Frameworks */,
 				725F7D851AF392FE00198BCB /* QuartzCore.framework in Frameworks */,
 				725F7D8F1AF3933D00198BCB /* libsqlite3.dylib in Frameworks */,
 				725F7D8D1AF3932F00198BCB /* libz.dylib in Frameworks */,
@@ -150,6 +159,8 @@
 		725F7D751AF3907D00198BCB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				72A250DA1AFE726900A7D9AD /* Foundation.framework */,
+				72A250D81AFE726200A7D9AD /* UIKit.framework */,
 				725F7D8E1AF3933D00198BCB /* libsqlite3.dylib */,
 				725F7D8C1AF3932F00198BCB /* libz.dylib */,
 				725F7D8A1AF3932400198BCB /* SystemConfiguration.framework */,
@@ -170,6 +181,8 @@
 		729D9B581AE38CDD00E4C6A6 = {
 			isa = PBXGroup;
 			children = (
+				72A250DC1AFE72CA00A7D9AD /* RNCryptManager.h */,
+				72A250DD1AFE72CA00A7D9AD /* RNCryptManager.m */,
 				725F7D751AF3907D00198BCB /* Frameworks */,
 				729D9B631AE38CDD00E4C6A6 /* Secure Personal File Manager */,
 				729D9B791AE38CDD00E4C6A6 /* Secure Personal File ManagerTests */,
@@ -189,27 +202,28 @@
 		729D9B631AE38CDD00E4C6A6 /* Secure Personal File Manager */ = {
 			isa = PBXGroup;
 			children = (
+				72A250DF1AFE72DD00A7D9AD /* CPPasswordViewController.h */,
+				72A250E01AFE72DD00A7D9AD /* CPPasswordViewController.m */,
+				72A250E21AFE72EF00A7D9AD /* CPAppDelegate.h */,
+				72A250E31AFE72EF00A7D9AD /* CPAppDelegate.m */,
 				729D9B661AE38CDD00E4C6A6 /* AppDelegate.swift */,
 				729D9B681AE38CDD00E4C6A6 /* ViewController.swift */,
 				729D9B6D1AE38CDD00E4C6A6 /* Images.xcassets */,
 				725838E21AF8AEF400024563 /* Main.storyboard */,
+				72A250E51AFE730900A7D9AD /* CPEncyptViewController.h */,
+				72A250E61AFE730900A7D9AD /* CPEncyptViewController.m */,
+				72A250E81AFE731700A7D9AD /* CPDecryptViewController.h */,
+				72A250E91AFE731700A7D9AD /* CPDecryptViewController.m */,
 				729D9B6F1AE38CDD00E4C6A6 /* LaunchScreen.xib */,
 				729D9B641AE38CDD00E4C6A6 /* Supporting Files */,
 				729D9B861AE3914E00E4C6A6 /* RegisterPageViewController.swift */,
-				72C581D31AFD2E1F0067AF63 /* EncryptDecryptViewController.swift */,
 				729D9B881AE396C600E4C6A6 /* LoginViewController.swift */,
 				725F7D911AF393A300198BCB /* MyConnector.h */,
 				725F7D921AF393A300198BCB /* MyConnector.m */,
 				725F7D901AF393A200198BCB /* Secure Personal File Manager-Bridging-Header.h */,
 				725F7D941AF3C99F00198BCB /* PasswordRecoverViewController.swift */,
-				725838CF1AF888CA00024563 /* ImageTableViewController.h */,
-				725838D01AF888CA00024563 /* ImageTableViewController.m */,
-				725838D21AF88D0800024563 /* ImageTableViewCell.h */,
-				725838D31AF88D0800024563 /* ImageTableViewCell.m */,
-				725838D71AF8949D00024563 /* ImageDetailViewController.h */,
-				725838D81AF8949D00024563 /* ImageDetailViewController.m */,
-				72560C081AFA65070067BCE4 /* CommonCryptor.h */,
-				72560C091AFA65070067BCE4 /* CommonCryptor.m */,
+				72A250F21AFE739200A7D9AD /* CPCryptController.h */,
+				72A250F31AFE739200A7D9AD /* CPCryptController.m */,
 			);
 			path = "Secure Personal File Manager";
 			sourceTree = "<group>";
@@ -218,11 +232,11 @@
 			isa = PBXGroup;
 			children = (
 				72EBDCCF1AF65FB700AD4D54 /* Images SPFM */,
-				7293AD5E1AF61BA300E046A4 /* pdf_icon.png */,
-				7293AD5F1AF61BA300E046A4 /* DCCS-Assignment v5.pdf */,
-				7293AD601AF61BA300E046A4 /* DCCS_3.pdf */,
-				7293AD611AF61BA300E046A4 /* DCCS_2.pdf */,
 				729D9B651AE38CDD00E4C6A6 /* Info.plist */,
+				72A250EB1AFE736600A7D9AD /* CryptPic-Info.plist */,
+				72A250EC1AFE736600A7D9AD /* CryptPic-Prefix.pch */,
+				72A250ED1AFE736600A7D9AD /* InfoPlist.strings */,
+				72A250EE1AFE736600A7D9AD /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -341,23 +355,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72A250EF1AFE736600A7D9AD /* CryptPic-Info.plist in Resources */,
 				72EBDCD71AF65FB700AD4D54 /* Tiger.jpg in Resources */,
-				7293AD631AF61BA300E046A4 /* DCCS-Assignment v5.pdf in Resources */,
 				72EBDCD51AF65FB700AD4D54 /* London.jpg in Resources */,
 				72EBDCE31AF664FA00AD4D54 /* Brain.jpg in Resources */,
+				72A250F01AFE736600A7D9AD /* InfoPlist.strings in Resources */,
 				72EBDCE51AF664FA00AD4D54 /* Ferrari.jpg in Resources */,
 				72EBDCD61AF65FB700AD4D54 /* Perth.jpg in Resources */,
 				725838E31AF8AEF400024563 /* Main.storyboard in Resources */,
 				72EBDCE21AF664FA00AD4D54 /* Baby.jpg in Resources */,
-				7293AD621AF61BA300E046A4 /* pdf_icon.png in Resources */,
 				72EBDCE11AF664FA00AD4D54 /* Apple.jpg in Resources */,
-				7293AD641AF61BA300E046A4 /* DCCS_3.pdf in Resources */,
 				72EBDCE41AF664FA00AD4D54 /* ColourPencil.jpg in Resources */,
 				725838D61AF8917F00024563 /* Tortoise.jpg in Resources */,
 				72EBDCD41AF65FB700AD4D54 /* Island.jpg in Resources */,
 				729D9B711AE38CDD00E4C6A6 /* LaunchScreen.xib in Resources */,
 				729D9B6E1AE38CDD00E4C6A6 /* Images.xcassets in Resources */,
-				7293AD651AF61BA300E046A4 /* DCCS_2.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,17 +387,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				725838D41AF88D0800024563 /* ImageTableViewCell.m in Sources */,
+				72A250E41AFE72EF00A7D9AD /* CPAppDelegate.m in Sources */,
 				729D9B891AE396C600E4C6A6 /* LoginViewController.swift in Sources */,
-				725838D11AF888CA00024563 /* ImageTableViewController.m in Sources */,
 				725F7D931AF393A300198BCB /* MyConnector.m in Sources */,
 				725F7D951AF3C99F00198BCB /* PasswordRecoverViewController.swift in Sources */,
 				729D9B691AE38CDD00E4C6A6 /* ViewController.swift in Sources */,
+				72A250F41AFE739200A7D9AD /* CPCryptController.m in Sources */,
 				729D9B671AE38CDD00E4C6A6 /* AppDelegate.swift in Sources */,
 				729D9B871AE3914E00E4C6A6 /* RegisterPageViewController.swift in Sources */,
-				72C581D41AFD2E1F0067AF63 /* EncryptDecryptViewController.swift in Sources */,
-				72560C0A1AFA65070067BCE4 /* CommonCryptor.m in Sources */,
-				725838D91AF8949D00024563 /* ImageDetailViewController.m in Sources */,
+				72A250E71AFE730900A7D9AD /* CPEncyptViewController.m in Sources */,
+				72A250F11AFE736600A7D9AD /* main.m in Sources */,
+				72A250DE1AFE72CA00A7D9AD /* RNCryptManager.m in Sources */,
+				72A250EA1AFE731700A7D9AD /* CPDecryptViewController.m in Sources */,
+				72A250E11AFE72DD00A7D9AD /* CPPasswordViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

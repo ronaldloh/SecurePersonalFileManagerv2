@@ -30,7 +30,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ZcN-9m-HX0" kind="show" identifier="imageView" id="hNM-Uy-XRa"/>
+                                    <segue destination="SCT-8v-w5l" kind="presentation" identifier="imageView" id="yhF-om-DwM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zFE-iB-5nk">
@@ -211,170 +211,184 @@
             </objects>
             <point key="canvasLocation" x="2066" y="379"/>
         </scene>
-        <!--Image View-->
-        <scene sceneID="BYZ-Cr-DtC">
+        <!--Item 2-->
+        <scene sceneID="Vz1-mi-0OW">
             <objects>
-                <tableViewController id="ZcN-9m-HX0" customClass="ImageTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="77" sectionHeaderHeight="22" sectionFooterHeight="22" id="ON3-7v-keY">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ImageTableViewCell" rowHeight="77" id="gQl-Rd-rdv" customClass="ImageTableViewCell">
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gQl-Rd-rdv" id="8Wh-YI-BJH">
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gOb-zw-gAn">
-                                            <rect key="frame" x="8" y="4" width="124" height="68"/>
-                                        </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vOz-IN-NMZ">
-                                            <rect key="frame" x="140" y="14" width="172" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="15K-IA-6Lj">
-                                            <rect key="frame" x="140" y="43" width="172" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </tableViewCellContentView>
-                                <connections>
-                                    <outlet property="DescriptionLabel" destination="15K-IA-6Lj" id="8Ic-QG-nLb"/>
-                                    <outlet property="ThumbImage" destination="gOb-zw-gAn" id="6ce-fM-FiC"/>
-                                    <outlet property="TitleLabel" destination="vOz-IN-NMZ" id="mgk-4t-hYk"/>
-                                    <segue destination="fVg-v0-FZb" kind="show" identifier="showdetails" id="jbt-nh-YsQ"/>
-                                </connections>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="ZcN-9m-HX0" id="cLk-Lq-KYK"/>
-                            <outlet property="delegate" destination="ZcN-9m-HX0" id="Uea-fZ-Eia"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Image View" id="DV1-ET-RM0"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nuO-ej-7He" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1275" y="1131"/>
-        </scene>
-        <!--Image Detail View Controller-->
-        <scene sceneID="biL-LD-gdm">
-            <objects>
-                <viewController id="fVg-v0-FZb" customClass="ImageDetailViewController" sceneMemberID="viewController">
+                <viewController id="JZ9-k3-l5g" customClass="CPDecryptViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="bpC-Bp-tye"/>
-                        <viewControllerLayoutGuide type="bottom" id="1ts-hI-FpM"/>
+                        <viewControllerLayoutGuide type="top" id="XEH-OF-4ML"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZUL-6h-aGO"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="KqV-Lu-UPi">
+                    <view key="view" contentMode="scaleToFill" id="NMA-Ko-Pp6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w1F-8f-Aps">
-                                <rect key="frame" x="5" y="84" width="310" height="216"/>
-                            </imageView>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Es9-vl-2m5">
-                                <rect key="frame" x="0.0" y="519" width="320" height="49"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <tabBarItem systemItem="favorites" id="Lr3-Tt-2fa"/>
-                                    <tabBarItem systemItem="more" id="A4N-Q6-lEt"/>
-                                </items>
-                            </tabBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jcy-Z6-ETI">
-                                <rect key="frame" x="16" y="377" width="288" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kok-Ga-GgB">
-                                <rect key="frame" x="16" y="343" width="288" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QKq-kc-XJT">
-                                <rect key="frame" x="95" y="417" width="131" height="30"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Encrypt Image">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kpB-uH-FPr">
+                                <rect key="frame" x="89" y="298" width="133" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Set Password">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="9yL-ST-ig0" kind="show" identifier="encryptView" id="Fr0-mC-7em"/>
+                                    <segue destination="OJv-3J-Wl3" kind="presentation" identifier="showPassword" id="zEs-0m-sBB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PfJ-6r-J44">
+                                <rect key="frame" x="102" y="352" width="106" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Decrypt">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="decrypt:" destination="JZ9-k3-l5g" eventType="touchUpInside" id="7W5-ew-LwB"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="loY-r6-ZNk">
+                                <rect key="frame" x="16" y="63" width="288" height="183"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="ctR-gI-kNL"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="decryptButton" destination="PfJ-6r-J44" id="7Bf-qT-Gp4"/>
+                        <outlet property="imageView" destination="loY-r6-ZNk" id="Ojj-JH-QXC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cel-dH-Gls" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1274" y="1743"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="evk-A5-v4O">
+            <objects>
+                <viewController id="nqD-tJ-R8u" customClass="CPEncyptViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YxF-dL-3uh"/>
+                        <viewControllerLayoutGuide type="bottom" id="7P8-bK-Gw1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xJI-Ys-h3t">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7zL-V0-L1p">
+                                <rect key="frame" x="16" y="42" width="288" height="162"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CPa-Ik-Ij4">
+                                <rect key="frame" x="107" y="236" width="106" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Set Picture">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectPicture:" destination="nqD-tJ-R8u" eventType="touchUpInside" id="Hfc-pR-GoW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O1f-fD-W6q">
+                                <rect key="frame" x="98" y="281" width="124" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Set Password">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="OJv-3J-Wl3" kind="presentation" identifier="showPassword" id="hIt-yW-10F"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="1Co-Lj-Frm">
+                                <rect key="frame" x="81" y="333" width="158" height="29"/>
+                                <segments>
+                                    <segment title="Disk"/>
+                                    <segment title="Memory"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeMode:" destination="nqD-tJ-R8u" eventType="valueChanged" id="2xq-xf-dRP"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hc2-4a-7T8">
+                                <rect key="frame" x="107" y="400" width="106" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Encrypt">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="encrypt:" destination="nqD-tJ-R8u" eventType="touchUpInside" id="QGl-zg-rJU"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="g9R-5d-19H"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="3Ew-fy-6Ha"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="DescriptionLabel" destination="Jcy-Z6-ETI" id="kBg-ZK-dnN"/>
-                        <outlet property="ImageView" destination="w1F-8f-Aps" id="5lA-lN-EdL"/>
-                        <outlet property="TitleLabel" destination="kok-Ga-GgB" id="8vy-03-gem"/>
+                        <outlet property="encryptButton" destination="hc2-4a-7T8" id="SE8-Af-0jg"/>
+                        <outlet property="imageView" destination="7zL-V0-L1p" id="nZK-V0-Sby"/>
+                        <outlet property="modeSegmentedControl" destination="1Co-Lj-Frm" id="urg-Ns-SrL"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RfU-sf-uTS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r9z-ml-31I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1676" y="1131"/>
+            <point key="canvasLocation" x="1274" y="1080"/>
         </scene>
-        <!--Encrypt Decrypt View Controller-->
-        <scene sceneID="E6W-EZ-z50">
+        <!--Password View Controller-->
+        <scene sceneID="XDF-RM-PPI">
             <objects>
-                <viewController id="9yL-ST-ig0" customClass="EncryptDecryptViewController" customModule="Secure_Personal_File_Manager" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="OJv-3J-Wl3" customClass="CPPasswordViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="D4v-7W-c6q"/>
-                        <viewControllerLayoutGuide type="bottom" id="ipl-Pe-Mqp"/>
+                        <viewControllerLayoutGuide type="top" id="oYO-bX-o7S"/>
+                        <viewControllerLayoutGuide type="bottom" id="orn-Rz-sYo"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="4Aq-aM-aX8">
+                    <view key="view" contentMode="scaleToFill" id="xEU-jC-F16">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsu-lb-lC0">
-                                <rect key="frame" x="95" y="254" width="131" height="30"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Decrypt Image">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="DecryptButtonTapped:" destination="9yL-ST-ig0" eventType="touchUpInside" id="fnQ-Qu-Vhj"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="To Encrypt or Decrypt Image:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="360-og-vx8">
-                                <rect key="frame" x="16" y="111" width="288" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please enter your password:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RFS-ur-fIE">
+                                <rect key="frame" x="16" y="80" width="288" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zAZ-tV-Kra">
-                                <rect key="frame" x="95" y="184" width="131" height="30"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Encrypt Image">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="EncryptButtonTapped:" destination="9yL-ST-ig0" eventType="touchUpInside" id="ZRw-W8-4c1"/>
-                                </connections>
-                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password:" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="ISb-UW-CZS">
+                                <rect key="frame" x="16" y="125" width="288" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="EncryptButtonTapped" destination="zAZ-tV-Kra" id="ojU-N6-su1"/>
+                        <outlet property="passwordTextField" destination="ISb-UW-CZS" id="fwy-9V-zPB"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6ta-2S-V78" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gus-5l-oYn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1676" y="1817"/>
+            <point key="canvasLocation" x="1715" y="1381"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="lae-ko-Xxt">
+            <objects>
+                <tabBarController id="SCT-8v-w5l" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="iBR-Y2-yiC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="nqD-tJ-R8u" kind="relationship" relationship="viewControllers" id="m8T-c1-2Fy"/>
+                        <segue destination="JZ9-k3-l5g" kind="relationship" relationship="viewControllers" id="guQ-jS-z55"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CqD-Qa-aqN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="713" y="1297"/>
         </scene>
         <!--Register Page View Controller-->
         <scene sceneID="4F4-yu-pdf">
@@ -459,7 +473,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EDJ-b7-4mJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2144" y="1095"/>
+            <point key="canvasLocation" x="2154" y="1094"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="qeb-zc-LwH">
@@ -481,5 +495,8 @@
             <point key="canvasLocation" x="888" y="379"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="hIt-yW-10F"/>
+    </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>
