@@ -11,7 +11,6 @@ import UIKit
 class EncryptDecryptViewController: UIViewController {
 
     
-    @IBOutlet weak var ImageViewController: UIImageView!
     var image : UIImage = UIImage(named:"imageNameHere")!
     var imageData = UIImagePNGRepresentation(image);
     
@@ -33,21 +32,30 @@ class EncryptDecryptViewController: UIViewController {
     
     
     
+    
+    
     @IBAction func EncryptButtonTapped(sender: AnyObject) {
         
         let base64String = imageData.base64EncodedStringWithOptions(.allZeros)
         println(base64String)
-        
+    
     }
+        
+    
     
 
     
     @IBAction func DecryptButtonTapped(sender: AnyObject) {
+        
         let decodedData = NSData(base64EncodedString: base64String, options: NSDataBase64DecodingOptions.fromRaw(0)!)
         var decodedimage = UIImage(data: decodedData)
         println(decodedimage)
         yourImageView.image = decodedimage as UIImage
+        
     }
+    
+    
+    
     
     
     
